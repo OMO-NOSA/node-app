@@ -1,17 +1,20 @@
 {
-  "name": "weather-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nosa Omorodion",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "nodemon": "^2.0.3",
-    "request": "^2.88.2",
-    "yargs": "^4.8.1"
-  }
+    "name": "weather-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --recursive"
+    },
+    "author": "Nosa Omorodion",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "nodemon": "^2.0.3",
+        "request": "^2.88.2",
+        "yargs": "^4.8.1"
+    },
+    "devDependencies": {
+        "mocha": "^7.1.1"
+    }
 }
