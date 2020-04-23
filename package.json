@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "mocha --recursive"
+        "test": "mocha",
+        "test-watch": "npx nodemon --exec \"npm test\""
     },
     "author": "Nosa Omorodion",
     "license": "ISC",
@@ -15,6 +16,7 @@
         "yargs": "^4.8.1"
     },
     "devDependencies": {
+        "expect": "^1.20.2",
         "mocha": "^7.1.1"
     }
 }
